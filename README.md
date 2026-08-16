@@ -98,7 +98,7 @@ Weights will be at `checkpoints/best_model.pth`.
 
 ### Option B: Google Drive Download (recommended if >100 MB)
 Download `best_model.pth` from:  
-**[https://drive.google.com/file/d/<YOUR_FILE_ID>/view?usp=sharing](https://drive.google.com/file/d/<YOUR_FILE_ID>/view?usp=sharing)**
+**[https://drive.google.com/drive/folders/1mQBvumODtqJ6Wi_ncCvBV--eqhExArd5?usp=drive_link)**
 
 Place it in:
 ```
