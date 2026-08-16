@@ -35,14 +35,9 @@ def calculate_ssim(img1, img2, data_range=1.0):
         return ssim_func(img1[0], img2[0], data_range=data_range)
 
 def normalize_input(img):
-    """
-    Optional: Z-score normalize input to stabilize training against 
-    out-of-range speckle values. Applied per-image.
-    """
     mean = img.mean()
     std = img.std() + 1e-8
     return (img - mean) / std, mean, std
 
 def denormalize_output(img, mean, std):
-    """Reverse Z-score normalization."""
     return img * std + mean
