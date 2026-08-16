@@ -148,17 +148,6 @@ python evaluate.py `
 4. Saves restored arrays to the output directory
 5. Prints per-image processing time and average throughput
 
-### 5.4 Expected output
-
-```text
-Device: cpu
-Loaded model: checkpoints/best_model.pth
-Found 400 test images.
-Processed 000000.npy | Time: 640.00 ms
-Processed 000001.npy | Time: 630.00 ms
-...
-Total: 1.9395s | Avg: 646.51 ms/image | Saved to: outputs/restored_eval
-```
 
 ---
 
@@ -312,6 +301,5 @@ For questions related to the project, dataset preparation, or reproduction steps
 2. L. Zhai et al., "A comprehensive review of deep learning-based real-world image restoration," *IEEE Access*, 2023.
 3. J. Terven et al., "A comprehensive survey of loss functions and metrics in deep learning," *Artificial Intelligence Review*, 2025.
 4. V. Monga et al., "Algorithm Unrolling," *IEEE Signal Processing Magazine*, 2021.
-5. X. Wang et al., "ESRGAN," *ECCV Workshop*, 2018.
 6. KLA Corporation, "SemiCon AI Hackathon 2026 — PS01," 2026.
 
