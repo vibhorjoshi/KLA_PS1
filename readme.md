@@ -116,6 +116,24 @@ checkpoints/best_model.pth
 
 This checkpoint is the default model used for benchmark and evaluation runs.
 
+
+## 4.1 Trained Model Weights
+
+The final trained weights are available via one of the following methods:
+
+### Option A: Git LFS (if stored in repo)
+```bash
+git lfs pull
+
+
+## Weights will be at checkpoints/best_model.pth.
+Option B: Google Drive Download (recommended if >100 MB)
+Download best_model.pth from:
+https drive.google.com/drive/folders/1mQBvumODtqJ6Wi_ncCvBV--eqhExArd5?usp=drive_link
+Place it in:
+plain
+checkpoints/best_model.pth
+
 ---
 
 ## 5. Evaluation / Inference
