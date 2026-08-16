@@ -1,10 +1,4 @@
 ﻿#!/usr/bin/env python3
-"""
-Generate side-by-side comparison PNGs and metrics CSV for visual reports.
-
-Creates: Noisy | Restored | GT side-by-side PNG images for presentations.
-"""
-
 import os
 import glob
 import argparse
