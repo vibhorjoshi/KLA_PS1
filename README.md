@@ -103,13 +103,6 @@ Download `best_model.pth` from:
 Place it in:
 ```
 checkpoints/best_model.pth
-```
-
-### Option C: Hugging Face Hub
-```python
-from huggingface_hub import hf_hub_download
-hf_hub_download(repo_id="<your-username>/kla-rrdb-net", filename="best_model.pth", local_dir="checkpoints")
-```
 
 ---
 
