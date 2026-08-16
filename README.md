@@ -278,6 +278,5 @@ For issues related to reproduction, open a GitHub Issue in this repository.
 1. T. Kumar et al., "Image Data Augmentation Approaches: A Comprehensive Survey," *IEEE Access*, 2024.
 2. L. Zhai et al., "A comprehensive review of deep learning-based real-world image restoration," *IEEE Access*, 2023.
 3. J. Terven et al., "A comprehensive survey of loss functions and metrics in deep learning," *Artif. Intell. Rev.*, 2025.
-4. V. Monga et al., "Algorithm Unrolling," *IEEE Signal Processing Magazine*, 2021.
 5. X. Wang et al., "ESRGAN," *ECCVW*, 2018.
 6. KLA Corporation, "SemiCon AI Hackathon 2026 — PS01," 2026.
