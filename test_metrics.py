@@ -1,10 +1,4 @@
 ﻿#!/usr/bin/env python3
-"""
-Compute PSNR, SSIM, and LPIPS metrics for restored test images.
-
-If ground truth is available, this script compares restored outputs against GT.
-"""
-
 import os
 import glob
 import argparse
@@ -16,17 +10,7 @@ from pathlib import Path
 import utils
 
 def compute_metrics(restored_dir, gt_dir=None, output_csv=None):
-    """
-    Compute metrics for restored images.
-    
-    Args:
-        restored_dir: Directory containing restored .npy files
-        gt_dir: Optional directory containing ground truth .npy files
-        output_csv: Path to save CSV results
-    
-    Returns:
-        Dictionary with mean metrics
-    """
+
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f"Device: {device}")
     
