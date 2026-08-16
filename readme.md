@@ -19,7 +19,7 @@ The model takes a noisy low-resolution grayscale array of shape `(1, H, W)` and 
 
 **Key specifications:**
 - Architecture: RRDB-Net with residual dense blocks
-- Parameters: ~2.8M
+- Parameters: ~1.5M
 - Typical inference speed: ~2.07 ms/image on NVIDIA H100
 - Input type: grayscale `.npy` with shape `(1, H, W)`
 - Output type: restored `.npy` with shape `(1, 2H, 2W)`
@@ -287,7 +287,7 @@ This generates:
 | Mean PSNR | 22.62 dB |
 | Mean SSIM | 0.6275 |
 | Inference Time | ~2.07 ms/image on H100 |
-| Parameters | ~2.8M |
+| Parameters | ~1.5M |
 | Checkpoint Size | ~17.4 MB |
 
 ---
