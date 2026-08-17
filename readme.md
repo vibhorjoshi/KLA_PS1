@@ -33,7 +33,7 @@ The model takes a noisy low-resolution grayscale array of shape `(1, H, W)` and 
 KLA PROJECT/
 ├── README.md                     # Project documentation
 ├── requirements.txt              # Frozen dependencies for reproducibility
-├── automate_pipeline.py          # Unified automation entry point
+├── run.py          # Unified automation entry point
 ├── train.py                      # Training script
 ├── evaluate.py                   # Standalone inference / benchmark script
 ├── test_metrics.py               # PSNR / SSIM metric evaluation
