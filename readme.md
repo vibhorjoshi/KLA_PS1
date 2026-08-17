@@ -143,7 +143,7 @@ The primary benchmark script is `evaluate.py`. It scans a directory of degraded 
 ### 5.1 Usage
 
 ```bash
-python evaluate.py \
+python run.py \
   --input_dir ./datasets/Test_NoisyLR/NoisyLR \
   --output_dir ./outputs/restored_eval \
   --model_path ./checkpoints/best_model.pth
@@ -192,7 +192,7 @@ python train.py \
   --train_degraded ./datasets/train/train/NoisyLR \
   --train_gt ./datasets/train/train/GT \
   --checkpoint_dir ./checkpoints \
-  --epochs 300 \
+  --epochs 50\
   --batch_size 4 \
   --lr 2e-4
 ```
@@ -213,7 +213,7 @@ Use the same command with the same dataset and output directory, or load the lat
 The repository also includes a unified automation wrapper that supports the major stages of the workflow.
 
 ```bash
-python automate_pipeline.py --help
+python run.py --help
 ```
 
 Available actions include:
@@ -226,11 +226,12 @@ Available actions include:
 Example:
 
 ```bash
-python automate_pipeline.py full \
-  --epochs 300 \
+python run.py full \
+  --epochs 50 \
   --batch_size 4 \
   --lr 2e-4
 ```
+## this is the final automated script that run the entire code directly with all available action included 
 
 ---
 
